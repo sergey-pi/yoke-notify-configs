@@ -1,0 +1,8 @@
+
+eureka:
+  client:
+    initial-instance-info-replication-interval-seconds: 10
+    instance-info-replication-interval-seconds: 5
+    registry-fetch-interval-seconds: 5
+    serviceUrl:
+      defaultZone: http://yoke-eureka:8761/eureka/
